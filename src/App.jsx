@@ -15,9 +15,6 @@ const App = () => {
     },
   ]);
 
-
-  
-
   const generateBotResponse = async (history) => {
     const userMessage = history[history.length - 1].text;
     
